@@ -1,9 +1,9 @@
 ﻿Dictionary<string, List<string>> kategoriak = new Dictionary<string, List<string>>()
-    {
-        { "gyumolcs", new List<string> { "alma", "korte", "banan", "szilva", "barack" } },
-        { "allat", new List<string> { "kutya", "macska", "elefant", "oroszlan", "tigris" } },
-        { "targy", new List<string> { "asztal", "szek", "telefon", "konyv", "auto" } }
-    };
+{
+    { "gyumolcs", new List<string> { "alma", "korte", "banan", "szilva", "barack" } },
+    { "allat", new List<string> { "kutya", "macska", "elefant", "oroszlan", "tigris" } },
+    { "targy", new List<string> { "asztal", "szek", "telefon", "konyv", "auto" } }
+};
 
 Console.WriteLine("Valassz kategoriat:");
 Console.WriteLine("1 - Gyumolcs");
@@ -37,6 +37,9 @@ Console.Clear();
 
 while (eletek > 0)
 {
+    Console.Clear();
+    Rajzol(eletek);
+
     Console.WriteLine("Szo: " + string.Join(" ", talalat));
     Console.WriteLine("Eletek: " + eletek);
     Console.WriteLine("Probalkozasok: " + string.Join(", ", probalkozasok));
@@ -51,7 +54,6 @@ while (eletek > 0)
     }
 
     probalkozasok.Add(input);
-
 
     if (input.Length > 1)
     {
@@ -89,12 +91,35 @@ while (eletek > 0)
 
     if (new string(talalat) == szo)
     {
+        Console.Clear();
+        Rajzol(eletek);
         Console.WriteLine("Gratulalok! Kitalaltad a szot: " + szo);
         return;
     }
 
-    Console.WriteLine();
+    Console.WriteLine("Nyomj meg egy gombot a folytatashoz...");
+    Console.ReadKey();
 }
 
+Console.Clear();
+Rajzol(eletek);
 Console.WriteLine("GAME OVER!");
 Console.WriteLine("A szo ez volt: " + szo);
+
+
+void Rajzol(int eletek)
+{
+    Console.WriteLine(" +---+");
+    Console.WriteLine(" |   |");
+
+    if (eletek <= 5)
+        Console.WriteLine(" O   |");
+    else
+        Console.WriteLine("     |");
+
+    if (eletek == 4)
+        Console.WriteLine(" |   |");
+    else if (eletek == 3)
+        Console.WriteLine("/|   |");
+    
+}
