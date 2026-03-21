@@ -27,3 +27,4 @@ C:\Users\Brendon\source\repos\Akasztofa\Akasztofa\obj\Debug\net10.0\refint\Akasz
 C:\Users\Brendon\source\repos\Akasztofa\Akasztofa\obj\Debug\net10.0\Akasztofa.pdb
 C:\Users\Brendon\source\repos\Akasztofa\Akasztofa\obj\Debug\net10.0\Akasztofa.genruntimeconfig.cache
 C:\Users\Brendon\source\repos\Akasztofa\Akasztofa\obj\Debug\net10.0\ref\Akasztofa.dll
+C:\Users\Márk\source\repos\Akasztofa\Akasztofa\obj\Debug\net10.0\Akasztofa.sourcelink.json

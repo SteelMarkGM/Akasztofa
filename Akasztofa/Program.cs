@@ -50,6 +50,7 @@ while (eletek > 0)
     if (probalkozasok.Contains(input))
     {
         Console.WriteLine("Ezt mar probaltad!");
+        Console.ReadKey();
         continue;
     }
 
@@ -64,25 +65,25 @@ while (eletek > 0)
         }
         else
         {
-            eletek--;
-            Console.WriteLine("Rossz szo!");
+            Console.WriteLine("Rossz szo! Azonnal meghaltal!");
+            eletek = 0;
         }
     }
     else
     {
         char betu = input[0];
-        bool talalt = false;
+        bool talaltBetu = false;
 
         for (int i = 0; i < szo.Length; i++)
         {
             if (szo[i] == betu)
             {
                 talalat[i] = betu;
-                talalt = true;
+                talaltBetu = true;
             }
         }
 
-        if (!talalt)
+        if (!talaltBetu)
         {
             eletek--;
             Console.WriteLine("Rossz betu!");
@@ -105,34 +106,34 @@ Console.Clear();
 Rajzol(eletek);
 Console.WriteLine("GAME OVER!");
 Console.WriteLine("A szo ez volt: " + szo);
+    
 
-
-void Rajzol(int eletek)
+static void Rajzol(int eletek)
 {
-    Console.WriteLine(" +---+");
-    Console.WriteLine(" |   |");
+Console.WriteLine(" +---+");
+Console.WriteLine(" |   |");
 
-    if (eletek <= 5)
-        Console.WriteLine(" O   |");
-    else
-        Console.WriteLine("     |");
-
-    if (eletek == 4)
-        Console.WriteLine(" |   |");
-    else if (eletek == 3)
-        Console.WriteLine("/|   |");
-    else if (eletek <= 2)
-        Console.WriteLine("/|\\  |");
-    else
-        Console.WriteLine("     |");
-
-    if (eletek == 1)
-        Console.WriteLine("/    |");
-    else if (eletek <= 0)
-        Console.WriteLine("/ \\  |");
-    else
-        Console.WriteLine("     |");
-
+if (eletek <= 5)
+    Console.WriteLine(" O   |");
+else
     Console.WriteLine("     |");
-    Console.WriteLine("=========");
+
+if (eletek == 4)
+    Console.WriteLine(" |   |");
+else if (eletek == 3)
+    Console.WriteLine("/|   |");
+else if (eletek <= 2)
+    Console.WriteLine("/|\\  |");
+else
+    Console.WriteLine("     |");
+
+if (eletek == 1)
+    Console.WriteLine("/    |");
+else if (eletek <= 0)
+    Console.WriteLine("/ \\  |");
+else
+    Console.WriteLine("     |");
+
+Console.WriteLine("     |");
+Console.WriteLine("=========");
 }
