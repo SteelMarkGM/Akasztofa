@@ -1,0 +1,14 @@
+C:\Users\Márk\source\repos\Akasztofa\Akasztofa\bin\Debug\net10.0\Akasztofa.exe
+C:\Users\Márk\source\repos\Akasztofa\Akasztofa\bin\Debug\net10.0\Akasztofa.deps.json
+C:\Users\Márk\source\repos\Akasztofa\Akasztofa\bin\Debug\net10.0\Akasztofa.runtimeconfig.json
+C:\Users\Márk\source\repos\Akasztofa\Akasztofa\bin\Debug\net10.0\Akasztofa.dll
+C:\Users\Márk\source\repos\Akasztofa\Akasztofa\bin\Debug\net10.0\Akasztofa.pdb
+C:\Users\Márk\source\repos\Akasztofa\Akasztofa\obj\Debug\net10.0\Akasztofa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Márk\source\repos\Akasztofa\Akasztofa\obj\Debug\net10.0\Akasztofa.AssemblyInfoInputs.cache
+C:\Users\Márk\source\repos\Akasztofa\Akasztofa\obj\Debug\net10.0\Akasztofa.AssemblyInfo.cs
+C:\Users\Márk\source\repos\Akasztofa\Akasztofa\obj\Debug\net10.0\Akasztofa.csproj.CoreCompileInputs.cache
+C:\Users\Márk\source\repos\Akasztofa\Akasztofa\obj\Debug\net10.0\Akasztofa.dll
+C:\Users\Márk\source\repos\Akasztofa\Akasztofa\obj\Debug\net10.0\refint\Akasztofa.dll
+C:\Users\Márk\source\repos\Akasztofa\Akasztofa\obj\Debug\net10.0\Akasztofa.pdb
+C:\Users\Márk\source\repos\Akasztofa\Akasztofa\obj\Debug\net10.0\Akasztofa.genruntimeconfig.cache
+C:\Users\Márk\source\repos\Akasztofa\Akasztofa\obj\Debug\net10.0\ref\Akasztofa.dll
