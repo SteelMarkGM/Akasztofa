@@ -98,8 +98,6 @@ while (eletek > 0)
         return;
     }
 
-    Console.WriteLine("Nyomj meg egy gombot a folytatashoz...");
-    Console.ReadKey();
 }
 
 Console.Clear();
