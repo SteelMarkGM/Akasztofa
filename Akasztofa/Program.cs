@@ -121,5 +121,18 @@ void Rajzol(int eletek)
         Console.WriteLine(" |   |");
     else if (eletek == 3)
         Console.WriteLine("/|   |");
-    
+    else if (eletek <= 2)
+        Console.WriteLine("/|\\  |");
+    else
+        Console.WriteLine("     |");
+
+    if (eletek == 1)
+        Console.WriteLine("/    |");
+    else if (eletek <= 0)
+        Console.WriteLine("/ \\  |");
+    else
+        Console.WriteLine("     |");
+
+    Console.WriteLine("     |");
+    Console.WriteLine("=========");
 }
