@@ -47,6 +47,13 @@ while (eletek > 0)
     Console.Write("Adj meg egy betut vagy egy teljes szot: ");
     string input = Console.ReadLine().ToLower();
 
+    if (string.IsNullOrWhiteSpace(input))
+    {
+        Console.WriteLine("Nem adtal meg semmit!");
+        Console.ReadKey();
+        continue;
+    }
+
     if (probalkozasok.Contains(input))
     {
         Console.WriteLine("Ezt mar probaltad!");
