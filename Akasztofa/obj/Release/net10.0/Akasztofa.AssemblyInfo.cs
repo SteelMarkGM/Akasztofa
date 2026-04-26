@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Akasztofa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c949373724b15a9d8ab4d7e2a98ba8fe2aa17e1d")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aae82125e93441b7118aac24f8576baedff9e6a1")]
+>>>>>>> 902fc535ec578d644fadd687d415b360fa48f50c
 [assembly: System.Reflection.AssemblyProductAttribute("Akasztofa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Akasztofa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
